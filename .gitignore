@@ -51,4 +51,6 @@ Temporary Items
 */logs/index.html
 */cache/*
 */cache/!index.html
-*/cache/!.htaccess*/application/config/config.php*/application/config/database.php
+*/cache/!.htaccess
+application/config/config.php
+application/config/database.php
