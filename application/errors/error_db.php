@@ -28,11 +28,11 @@ margin:				0 0 4px 0;
 <body>
 	<div id="content">
 		<h1>BOOM! The database has exploded!</h1>
-		<p>Pixeltweak has been notified, and will rush to get this fixed really soon. Hang tight!</p>
+		<p>The owner has been notified, and will rush to get this fixed really soon. Hang tight!</p>
 	</div>
 </body>
 </html>
-<?php mail('pixelgrid@gmail.com', $heading, $heading."\n".$message) ?>
+<?php mail('jlj3807@gmail.com', $heading, $heading."\n".$message) ?>
 <?php
 
 mysql_query("INSERT INTO `action_logs` (`id`, `username`, `user_id`, `userdata`, `ip`, `time`, `type`, `browser`, `action`, `data`) VALUES 
